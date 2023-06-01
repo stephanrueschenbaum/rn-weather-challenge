@@ -34,7 +34,7 @@ You'll need to use two APIs. Please refer to the docs for more info:
 
 In both cases, you'll need an API Key. You can use this one:
 ```
-d347e74a74bd1d098c187f6764fc0d28
+be79c31f1538beead7385fd70d0f87d3
 ```
 
 Have fun!

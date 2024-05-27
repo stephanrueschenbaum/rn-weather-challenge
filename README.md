@@ -14,17 +14,14 @@ Finally, you are encouraged to ask us questions, and to be as communicative as p
 
 ## Requirements
 
-Display an input field where the user can type a city. Call the Geocoding API to obtain a list of cities matching the inputted query, and display the results in a list.
+- [ ] Display an input field where the user can type a city. Call the Geocoding API to obtain a list of cities matching the inputted query, and display the results in a list. Where the user can select a city.
 
-With the latitude/longitude returned by the Geocoding API, you can now call the Current weather data API to get the current weather for each result.
+- [ ] With the latitude/longitude returned by the Geocoding API, you can now call the Current weather data API to get the current weather for each result and show the temperature on a new screen (using [reactnavigation](https://reactnavigation.org/)).
 
-Create local types to enforce type safety on API results and in your local states.
-
-Find a way to display the current weather data, either for all results, or for one result at a time (eg. as a result of some user interaction).
-
-## Extra considerations
-
-The API is rate limited, so you'll probably want to implement some strategy to avoid running over the usage limits.
+## Keep in mind
+- Create local types to enforce type safety on API results and in your local states.
+- The API is rate limited, so you'll probably want to implement some strategy to avoid running over the usage limits when searching for cities.
+- Use best practices you know.
 
 ## Using the OpenWeather API
 
